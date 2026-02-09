@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Data Engineer portfolio – projects, experience, certifications, and contact." />
+    <title>Your Name | Data Engineer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Top Nav -->
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand" href="#top" aria-label="Homepage">
+          <span class="brand-dot"></span>
+          <span>Your Name</span>
+        </a>
+
+        <nav class="links" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#certs">Certifications</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+        <div class="container mobile-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#certs">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="pill">Open to Data Engineer • Analytics Engineer • ML/AI Data Engineer</p>
+            <h1>
+              I build reliable data pipelines, clean data models, and AI-ready datasets.
+            </h1>
+            <p class="subtitle">
+              I specialize in modern data stacks (SQL, Python, Databricks/Spark, Azure/GCP) and
+              production-grade ETL/ELT, quality checks, and performance optimization.
+            </p>
+
+            <div class="cta">
+              <!-- Replace href with your resume file path once you add it -->
+              <a class="btn primary" href="resume.pdf" target="_blank" rel="noreferrer">
+                Download Resume
+              </a>
+              <a class="btn" href="#projects">View Projects</a>
+            </div>
+
+            <div class="quick">
+              <div class="quick-item">
+                <span class="label">Location</span>
+                <span class="value">Abu Dhabi, UAE</span>
+              </div>
+              <div class="quick-item">
+                <span class="label">Focus</span>
+                <span class="value">ETL • Data Modeling • DQ • MLOps-ready pipelines</span>
+              </div>
+              <div class="quick-item">
+                <span class="label">Contact</span>
+                <span class="value"><a href="mailto:you@email.com">you@email.com</a></span>
+              </div>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Highlights">
+            <h2 class="card-title">Highlights</h2>
+            <ul class="bullets">
+              <li>3+ years building end-to-end data pipelines (ingest → transform → serve).</li>
+              <li>Strong SQL + Python; Spark/Databricks; warehouse design & performance tuning.</li>
+              <li>Data quality monitoring, caching strategies, metadata & governance mindset.</li>
+              <li>Experience enabling AI/LLM use-cases with clean structured + unstructured data.</li>
+            </ul>
+
+            <div class="chips" aria-label="Key technologies">
+              <span class="chip">SQL</span>
+              <span class="chip">Python</span>
+              <span class="chip">Databricks</span>
+              <span class="chip">Spark</span>
+              <span class="chip">Azure</span>
+              <span class="chip">GCP</span>
+              <span class="chip">CI/CD</span>
+              <span class="chip">Data Modeling</span>
+            </div>
+
+            <div class="mini-links">
+              <a href="https://github.com/your-handle" target="_blank" rel="noreferrer">GitHub</a>
+              <span>•</span>
+              <a href="https://www.linkedin.com/in/your-handle/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <span>•</span>
+              <a href="#contact">Email</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p>Short, impact-first summary recruiters actually read.</p>
+          </div>
+
+          <div class="two-col">
+            <div class="card">
+              <h3>Professional summary</h3>
+              <p>
+                I’m a Data Engineer with 3+ years of experience building scalable ingestion and
+                transformation pipelines, designing analytics-ready models (star schema / medallion),
+                and improving data quality and performance. I enjoy owning end-to-end delivery:
+                requirements → build → test → deploy → monitor.
+              </p>
+              <p>
+                Recently, I’ve also worked on AI-adjacent workflows (RAG/LLM-ready datasets,
+                unstructured data handling, and evaluation-friendly data outputs).
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>What I’m looking for</h3>
+              <ul class="bullets">
+                <li>Product-minded teams that care about reliability and real-world impact.</li>
+                <li>Work involving pipelines, modeling, quality, observability, and performance.</li>
+                <li>Opportunities to grow toward data architecture and technical leadership.</li>
+              </ul>
+
+              <div class="callout">
+                <strong>Tip:</strong> Keep this section under ~12 lines. You’ll get more replies.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section" id="skills">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills</h2>
+            <p>Grouped like a hiring manager thinks.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3>Data Engineering</h3>
+              <ul class="tags">
+                <li>ETL/ELT</li><li>Data Modeling</li><li>Medallion</li><li>SCD Type 2</li>
+                <li>Partitioning</li><li>Indexing</li><li>Optimization</li><li>Data Quality</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>Tech Stack</h3>
+              <ul class="tags">
+                <li>SQL</li><li>Python</li><li>Spark</li><li>Databricks</li>
+                <li>Azure Data Factory</li><li>REST APIs</li><li>Git</li><li>Docker</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>AI / Analytics Enablement</h3>
+              <ul class="tags">
+                <li>Feature-ready datasets</li><li>RAG data prep</li><li>Embeddings</li><li>Vector search</li>
+                <li>Quality checks</li><li>Monitoring</li><li>Experiment outputs</li><li>Documentation</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p>Show measurable outcomes + what you personally built.</p>
+          </div>
+
+          <div class="grid-2">
+            <article class="card project">
+              <div class="project-head">
+                <h3>Data Cleansing & Standardization Framework</h3>
+                <span class="badge">Python • SQL • QA</span>
+              </div>
+              <p>
+                Built a reusable framework to standardize messy entity data (names, orgs, locations),
+                deduplicate records, and log quality metrics across runs.
+              </p>
+              <ul class="bullets">
+                <li>Designed caching + reprocessing controls for faster iterative runs.</li>
+                <li>Produced JSONL snapshots + audit-friendly outputs.</li>
+                <li>Improved reliability with validation rules and safe serialization.</li>
+              </ul>
+              <div class="project-links">
+                <a href="https://github.com/your-handle/your-repo" target="_blank" rel="noreferrer">Code</a>
+                <span>•</span>
+                <a href="#" target="_blank" rel="noreferrer">Case Study</a>
+              </div>
+            </article>
+
+            <article class="card project">
+              <div class="project-head">
+                <h3>Similarity Search for Project Matching</h3>
+                <span class="badge">FAISS • Embeddings</span>
+              </div>
+              <p>
+                Implemented vector similarity to identify near-duplicate projects and surface likely matches for review.
+              </p>
+              <ul class="bullets">
+                <li>Generated embeddings, built FAISS index, returned top-K candidates.</li>
+                <li>Added business columns in output (amount comparisons, entity fields).</li>
+                <li>Enabled faster manual QA with rank + confidence thresholding.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">Demo</a>
+                <span>•</span>
+                <a href="#" target="_blank" rel="noreferrer">Write-up</a>
+              </div>
+            </article>
+
+            <article class="card project">
+              <div class="project-head">
+                <h3>Medallion Warehouse for Reporting</h3>
+                <span class="badge">Databricks • Spark • SQL</span>
+              </div>
+              <p>
+                Designed Bronze/Silver/Gold layers and modeled reporting datasets with strong governance and documentation.
+              </p>
+              <ul class="bullets">
+                <li>Standardized naming, partitioning strategy, and refresh patterns.</li>
+                <li>Implemented incremental loads + QA checkpoints.</li>
+                <li>Optimized queries via pruning and model redesign.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">Architecture</a>
+              </div>
+            </article>
+
+            <article class="card project">
+              <div class="project-head">
+                <h3>Unstructured Data Prep for RAG</h3>
+                <span class="badge">LLM • Volumes</span>
+              </div>
+              <p>
+                Prepared PDFs and text for retrieval workflows: chunking, metadata capture, and storage patterns.
+              </p>
+              <ul class="bullets">
+                <li>Created clean chunk outputs with stable IDs + traceability.</li>
+                <li>Structured storage to support evaluation and re-embedding cycles.</li>
+                <li>Focused on privacy-safe handling and governance.</li>
+              </ul>
+              <div class="project-links">
+                <a href="#" target="_blank" rel="noreferrer">Notes</a>
+              </div>
+            </article>
+          </div>
+
+          <p class="muted">
+            Replace these with your real projects (2–4 is perfect). Strong projects beat many projects.
+          </p>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section class="section" id="experience">
+        <div class="container">
+          <div class="section-head">
+            <h2>Experience</h2>
+            <p>Quantify impact. Mention scale, reliability, performance.</p>
+          </div>
+
+          <div class="timeline">
+            <div class="card timeline-item">
+              <div class="timeline-head">
+                <h3>Data Engineer — Artefact</h3>
+                <span class="muted">2025 — Present • UAE</span>
+              </div>
+              <ul class="bullets">
+                <li>Built and supported data pipelines and curated datasets for governance/MDM initiatives.</li>
+                <li>Collaborated with stakeholders to define critical data elements and quality rules.</li>
+                <li>Produced technical documentation and repeatable delivery assets (SQL/Python patterns).</li>
+              </ul>
+            </div>
+
+            <div class="card timeline-item">
+              <div class="timeline-head">
+                <h3>Data Engineer — Previous Company</h3>
+                <span class="muted">2022 — 2025</span>
+              </div>
+              <ul class="bullets">
+                <li>Owned ETL/ELT pipelines from multiple sources (APIs, DBs, files) into analytics models.</li>
+                <li>Improved performance using partitioning/indexing and query rewrites.</li>
+                <li>Implemented validation checks and data quality reporting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications -->
+      <section class="section" id="certs">
+        <div class="container">
+          <div class="section-head">
+            <h2>Certifications</h2>
+            <p>Only the ones that matter. Add dates if you want.</p>
+          </div>
+
+          <div class="grid-3">
+            <div class="card">
+              <h3>Databricks Data Engineer Associate</h3>
+              <p class="muted">Certified</p>
+            </div>
+            <div class="card">
+              <h3>SAFe 6 Agilist</h3>
+              <p class="muted">Certified</p>
+            </div>
+            <div class="card">
+              <h3>Other (optional)</h3>
+              <p class="muted">Azure / GCP / etc.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Contact</h2>
+            <p>Make it effortless for recruiters.</p>
+          </div>
+
+          <div class="two-col">
+            <div class="card">
+              <h3>Get in touch</h3>
+              <p>
+                Email is best. I typically respond within 24–48 hours.
+              </p>
+              <div class="contact-list">
+                <a class="contact-row" href="mailto:you@email.com">
+                  <span>Email</span><span>you@email.com</span>
+                </a>
+                <a class="contact-row" href="https://www.linkedin.com/in/your-handle/" target="_blank" rel="noreferrer">
+                  <span>LinkedIn</span><span>/in/your-handle</span>
+                </a>
+                <a class="contact-row" href="https://github.com/your-handle" target="_blank" rel="noreferrer">
+                  <span>GitHub</span><span>@your-handle</span>
+                </a>
+              </div>
+              <p class="muted small">
+                Optional: add a Calendly link if you want.
+              </p>
+            </div>
+
+            <div class="card">
+              <h3>Message template (copy/paste)</h3>
+              <p class="mono" id="msgTemplate">
+Hi Your Name,
+I came across your profile and would like to discuss a data engineering opportunity.
+Are you available for a quick call this week?
+
+Thanks,
+[Recruiter Name]
+              </p>
+              <button class="btn" id="copyBtn">Copy template</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div class="muted">© <span id="year"></span> Your Name</div>
+          <div class="footer-links">
+            <a href="#top">Back to top</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
